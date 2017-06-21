@@ -14,6 +14,7 @@ int main(int argc, char *argv[])
     ConfigComunicacao::load();
     Config::load();
 
+    //Alterei
     /// variáveis utilizadas na IA
     QMutex mBUS; ///< Mutex para controlar o acesso ao objeto communcation bus
     CommunicationBUS bus; /// barramento utilizado na comunicação entre a thread principal e a de comunicacao;
